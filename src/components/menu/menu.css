@@ -1,0 +1,40 @@
+.main__container {
+    display: flex;
+    height:90vh;
+    gap: 50px;
+    margin-top: 40px;
+}
+.left__menu-container {
+    padding: 50px 20px 20px;
+    background-color: #161D2F;
+}
+.left__menu,
+.left__menu-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+}
+.left__menu {
+    gap: 80px;
+}
+.left__menu-navbar {
+    gap: 40px;
+}
+.left__menu-link {
+    padding: 15px;
+    font-size: 30px;
+    display: inline-block;
+    color: #53658D;
+}
+.left__menu-link-active {
+    color: rgb(237, 237, 255);
+    padding: 15px;
+    font-size: 30px;
+    display: inline-block;
+}
+.left__menu-logo  {
+    color: rgb(236, 80, 111);
+    font-size: 40px;
+}

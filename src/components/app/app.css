@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    background-color: #10141F;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.right__container {
+    flex-grow: 1;
+    height: 100vh;
+    padding-top: 50px;
+    overflow-y: scroll;
+}
